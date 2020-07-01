@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<psalm>
+  <projectFiles>
+    <directory name="src"/>
+    <ignoreFiles>
+    </ignoreFiles>
+  </projectFiles>
+  <issueHandlers>
+  </issueHandlers>
+</psalm>

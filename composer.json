@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Dxw\\PhpCsFixerConfig\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^3.12",
+        "phpunit/phpunit": "^8.5"
+    }
+}
