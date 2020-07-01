@@ -1,5 +1,6 @@
 {
     "name": "dxw/php-cs-fixer-config",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Dxw\\PhpCsFixerConfig\\": "src/"
