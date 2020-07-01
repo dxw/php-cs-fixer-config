@@ -1,4 +1,5 @@
 {
+    "name": "dxw/php-cs-fixer-config",
     "autoload": {
         "psr-4": {
             "Dxw\\PhpCsFixerConfig\\": "src/"
