@@ -62,4 +62,10 @@ class ConfigTest extends \PHPUnit\Framework\TestCase
     {
         $this->expectFailure("<?php function a_b() {\n}\n");
     }
+
+    public function testStrictComparison()
+    {
+        $this->expectSuccess("<?php \$a === \$b;\n");
+        $this->expectFailure("<?php \$a == \$b;\n");
+    }
 }
