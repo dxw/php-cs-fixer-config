@@ -10,7 +10,7 @@ Run this:
 composer require --dev dxw/php-cs-fixer-config
 ```
 
-Create `.php_cs` with these contents:
+Create `.php-cs-fixer.php` with these contents:
 
 ```
 <?php
