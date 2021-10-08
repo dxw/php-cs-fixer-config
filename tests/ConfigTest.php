@@ -19,7 +19,7 @@ class ConfigTest extends \PHPUnit\Framework\TestCase
     {
         $this->rmDir();
         mkdir($this->dir);
-        file_put_contents($this->dir.'/.php_cs', '<?php $finder = \PhpCsFixer\Finder::create()->in(__DIR__); return \Dxw\PhpCsFixerConfig\Config::create()->setFinder($finder);');
+        file_put_contents($this->dir.'/.php-cs-fixer.php', '<?php $finder = \PhpCsFixer\Finder::create()->in(__DIR__); return \Dxw\PhpCsFixerConfig\Config::create()->setFinder($finder);');
         file_put_contents($this->file, $code);
         exec("sh -c 'cd {$this->dir} && ../../vendor/bin/php-cs-fixer fix --dry-run --diff 2>&1'", $output, $exitStatus);
         $stringOutput = sprintf("Input:\n%s\nOutput:\n%s\n", $code, implode("\n", $output));

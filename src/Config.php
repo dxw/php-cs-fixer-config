@@ -6,8 +6,8 @@ class Config
 {
     public static function create() : \PhpCsFixer\ConfigInterface
     {
-        return \PhpCsFixer\Config::create()
-        ->setRules([
+        $config = new \PhpCsFixer\Config();
+        return $config->setRules([
             '@PSR2' => true,
             'array_syntax' => ['syntax' => 'short'],
         ]);
