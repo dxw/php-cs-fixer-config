@@ -11,7 +11,7 @@
         "friendsofphp/php-cs-fixer": "^2.16"
     },
     "require-dev": {
-        "vimeo/psalm": "^3.12",
+        "vimeo/psalm": "^4.10",
         "phpunit/phpunit": "^8.5"
     }
 }
