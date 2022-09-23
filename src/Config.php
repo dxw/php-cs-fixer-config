@@ -9,7 +9,8 @@ class Config
         $config = new \PhpCsFixer\Config();
         return $config->setRules([
             '@PSR2' => true,
-            'array_syntax' => ['syntax' => 'short'],
-        ]);
+            'array_syntax' => ['syntax' => 'short']
+        ])
+        ->setIndent("\t");
     }
 }
