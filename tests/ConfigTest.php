@@ -54,7 +54,7 @@ class ConfigTest extends \PHPUnit\Framework\TestCase
 	public function testLongArray()
 	{
 		$this->expectFailure("<?php \$a = array();\n");
-		$this->expectSuccess("<?php \$a = [];\n");
+		$this->expectSuccess("<?php\n\n\$a = [];\n");
 	}
 
 	// PSR2
