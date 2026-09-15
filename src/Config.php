@@ -2,7 +2,7 @@
 
 namespace Dxw\PhpCsFixerConfig;
 
-class Config
+final class Config
 {
 	public static function create(): \PhpCsFixer\ConfigInterface
 	{
